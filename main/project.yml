@@ -5,8 +5,7 @@ packages :
     actions:
       - name: app
         limits:
-          timeout: 5000
-          memory: 256
+          timeout: 10000
 
 
 
