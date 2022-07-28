@@ -1,17 +1,22 @@
 environment: {}
 parameters: {}
-packages:
-  - name: sample
-    environment: {}
-    parameters: {}
-    annotations: {}
-    functions:
-      - name: hello
-        binary: false
-        main: ''
-        runtime: 'nodejs:default'
-        web: true
-        parameters: {}
-        environment: {}
-        annotations: {}
-        limits: {}
+packages :
+  - name : cloud
+    actions:
+      - name: app
+        limits:
+          timeout: 5000
+          memory: 256
+
+
+
+    # functions :
+    #   - name : index
+    #     binary: false
+    #     main: ''
+    #     runtime: 'nodejs:default'
+    #     web: true
+    #     parameters: {}
+    #     environment: {}
+    #     annotations: {}
+    #     limits: {}
