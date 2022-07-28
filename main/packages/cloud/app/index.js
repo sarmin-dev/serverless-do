@@ -16,7 +16,6 @@ const send404 = async ()=>{
 const download = async (url)=>{
     const sendBack = {
         "status-code":404,
-        "response-headers":{},
         "body":""
     };
     return new Promise((resolve,reject)=>{
@@ -29,7 +28,6 @@ const download = async (url)=>{
         }).on('response',(resp)=>{
             try{
                 sendBack["status-code"] = resp.statusCode;
-                sendBack["response-headers"] = resp.headers;
             }catch(e){};
         }).on('data', (data)=>{
             sendBack.body+=data;

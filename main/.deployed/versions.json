@@ -4,14 +4,14 @@
     "namespace": "fn-941fa39c-ed51-4f54-90f1-186c5ba807e2",
     "packageVersions": {
       "cloud": {
-        "version": "0.0.32",
+        "version": "0.0.33",
         "digest": "be0171119fc835551425b7ebbc62551cb06be9a3f4275bfe01202eaba4261034"
       }
     },
     "actionVersions": {
       "cloud/app": {
-        "version": "0.0.31",
-        "digest": "ecaa0097a4b4ae73d0002708d93cd1b5999d82a8c65cfccf9ff4827444a1a978"
+        "version": "0.0.32",
+        "digest": "a9b8337f75e08893a36cf5e2f595ebd4fc349172bc0cebbce92562740190f680"
       }
     },
     "webHashes": {}
